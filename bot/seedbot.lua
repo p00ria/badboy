@@ -270,19 +270,10 @@ function create_config( )
     "InvMasih",
     "Voice"
     },
-    sudo_users = {175636120,99628088},--Sudo users
+    sudo_users = {175636120,185264953},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[This Is Blizzard Bot
-
-List Of Bot Admins:
-
-@Redteam_01_13 [Founder]
-
-@Redteam_01_14 [Developer]
-
-Our channels:
-@Blizzard_TG
+    about_text = [[
 ]],
     help_text_realm = [[
 Realm Commands:
@@ -466,7 +457,7 @@ Will return group ban list
 
 » Only owner can use res,setowner,promote,demote and log commands
 
-» Only owner can use !invpouria or !invmasih to invite sudo on chat
+» Only owner can use !invamir to invite sudo on chat
 ]]
   }
   serialize_to_file(config, './data/config.lua')
